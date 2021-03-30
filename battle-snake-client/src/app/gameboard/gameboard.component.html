@@ -1,0 +1,8 @@
+
+<div class="border-gray-300 border rounded h-96 w-96">
+  <svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g *ngFor="let s of size; let i=index">
+      <rect *ngFor="let q of size; let j=index" [attr.x]="(j*10)" [attr.y]="(i*10)" width="10" height="10" stroke="black" fill="transparent" stroke-width="1"/>
+    </g>
+  </svg>
+</div>
